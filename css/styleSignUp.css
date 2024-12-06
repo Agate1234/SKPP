@@ -1,0 +1,357 @@
+html{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 110px;
+}
+
+.flex-container > div{
+    width: 652px;
+    height: 762px;
+}
+
+.welcome{
+    margin-left: 102px;
+    background-color: #D9D9D9;
+}
+
+.welcome img{
+    position: absolute;
+    width: 109px;
+    height: 114px;
+    padding-left: 15px;
+    padding-top: 23px;
+}
+
+#judul1{
+    font-family: 'Inter';
+    text-align: left;
+    position: absolute;
+    width: 427px;
+    height: 67px;
+    font-weight: 400;
+    line-height: 42.36px;
+    padding-top: 34px;
+    padding-left: 139px;
+    text-shadow: 0px 4px 3px #00000040;
+    font-size: 35px;
+}
+
+#judul2{
+    font-family: 'Inter';
+    text-align: left;
+    position: absolute;
+    width: 403px;
+    height: 50px;
+    padding-top: 80px;
+    padding-left: 139px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+}
+
+#judul3{
+    width: 551px;
+    height: 109px;
+    padding-top: 337px;
+    padding-left: 40px;
+    text-align: left;
+    position: absolute;
+    font-family: 'Judson';
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 92px;
+    color: #261E59;
+    text-shadow: 0px 4px 3px #00000040;
+}
+
+#judul4{
+    width: 395px;
+    height: 96px;
+    padding-top: 479px;
+    padding-left: 40px;
+    text-align: left;
+    position: absolute;
+    font-family: Marvel;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.35px;
+    text-align: left;
+    color: #24254B;
+    text-shadow: 0px 4px 4px #00000040 inset;
+}
+
+.page{
+    background: #20194B;
+}
+
+#aboutUs{
+    width: 151px;
+    height: 27px;
+    padding-top: 23px;
+    padding-left: 545px;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.28px;
+    text-align: center;
+    color: white;
+}
+
+#create {
+    position: absolute;
+    top: 148px;
+    left: 891px;
+    font-family: 'Judson';
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 51.75px;
+    text-align: left;
+    color: #C9C4E7;
+    text-shadow: 0px 4px 3px #00000040;
+    }
+
+button {
+    position: absolute;
+    width: 204px;
+    height: 45.44px;
+    border-radius: 25px;
+    border: 1px solid #FFFFFF80;
+    color: #FFFFFF;
+    background: #20194B;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+button span{
+    cursor: pointer;
+    font-weight: bolder;
+    display: inline-block;
+    position: relative;
+    transition: 0.75s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    border: 5px solid #FFFFFF80;
+}
+
+.kategori {
+    margin-top: 150px;
+}
+
+.kategori label,
+.kategori input {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    color: #FFFFFF;
+    background: #20194B;
+    width: 204px;
+    height: 45.44px;
+    border: 1px solid #FFFFFF80;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.75s;
+}
+
+.kategori input[type="radio"] {
+  display: none;
+}
+
+.kategori label:hover {
+    transform: scale(1.1);
+    border: 5px solid #FFFFFF80;
+}
+
+.kategori input[type="radio"]:checked + label {
+    transform: scale(1.1);
+    border: 5px solid #FFFFFF80;
+}
+
+#dosen {
+    margin-top: 194px;
+    margin-left: 89px;
+}
+
+#tendik{
+    margin-top: 194px;
+    margin-left: 372px;
+}
+
+#mhs {
+    margin-top: 274px;
+    margin-left: 89px;
+}
+
+#wali {
+    margin-top: 274px;
+    margin-left: 372px;
+}
+
+#alumni {
+    margin-top: 354px;
+    margin-left: 89px;
+}
+
+#industri {
+    margin-top: 354px;
+    margin-left: 372px;
+}
+
+button.create {
+    position: absolute;
+    width: 415px;
+    height: 50px;
+    margin-top: 428px;
+    margin-left: 129px;
+    border-radius: 25px;
+}
+
+.login {
+    position: absolute;
+    margin-top: 498px;
+    margin-left: 224px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 110px;
+    background: #161849;
+    margin: 0px 0px -8px -8px;
+}
+
+.footer > div{
+    padding-top: 10px;
+    padding-left: 132px;
+}
+
+.footer img{
+    width: 47px;
+    height: 47px;
+    padding-top: 21px;
+}
+
+#secondImg{
+    padding-left: 15px;
+}
+
+#thirdImg{
+    padding-left: 15px;
+}
+
+#fourthImg{
+    padding-left: 15px;
+}
+
+#fifthImg{
+    padding-left: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #161849;
+}
+
+.footer p{
+    width: 638px;
+    height: 76px;
+    padding-left: 225px;
+    font-family: 'Inter';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.84px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+input {
+    background-color: #20194B;
+}
+
+input.email {
+    position: absolute;
+    width: 563px;
+    height: 47px;
+    margin-top: -50px;
+    margin-left: 28px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF80;
+}
+
+#email {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 48px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+input.user {
+    position: absolute;
+    width: 563px;
+    height: 47px;
+    margin-top: 40px;
+    margin-left: 28px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF80;
+}
+
+#user {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 48px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+input.pass {
+    position: absolute;
+    width: 563px;
+    height: 47px;
+    margin-top: 130px;
+    margin-left: 28px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF80;
+}
+
+#pass {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 48px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.8;
+}

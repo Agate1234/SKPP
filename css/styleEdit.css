@@ -1,0 +1,216 @@
+.container {
+    position: absolute;
+    width: 1055px;
+    height: 1000px;
+    top: 124px;
+    left: 423px;
+    color: #D9D9D9;
+    border: 1px solid #D9D9D9
+}
+
+table {
+    margin-left: 29px;
+    width: 988px;
+    height: 18px;
+    margin-top: 20px;
+    top: 315px;
+    left: 453px;
+    color: #FFFFFF;
+}
+
+th {
+    opacity: 0.8px;
+    padding-bottom: 10px;
+    font-family: 'Inter';
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32.68px;
+}
+
+#judul1 {
+    margin-left: 45px;
+    opacity: 0.9px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#judul2 {
+    position: absolute;
+    opacity: 0.9px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 389px;
+}
+
+.management {
+    background-image: url('../img/management-select.png');
+    margin-top: 13px;
+    margin-left: 35px;
+}
+
+.management-button {
+    width: 360px;
+    height: 100px;
+    margin-top: 391px;
+    left: 11px;
+    border-radius: 25px;
+    background: #7286CA;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+#management {
+    margin-top: 13px;
+    margin-left: -11px;
+    color: #E6E2E2;
+    text-shadow: 0px 4px 3px #00000040;
+}
+
+#button-select1 {
+    position: absolute;
+    width: 22.36px;
+    height: 70.76px;
+    border-radius: 25px;
+    background: #D9D9D9;
+    margin-top: 11.24px;
+    margin-left: -5px;
+}
+
+.edit {
+    width: 81px;
+    height: 50px;
+    border-radius: 12px;
+    background: #6986C0;
+    cursor: pointer;
+}
+
+.edit span {
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600px;
+    line-height: 26.63px;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 3px #00000040;
+}
+
+.edit img {
+    width: 17px;
+    height: 17px;
+    padding-right: 5px;
+}
+
+.hapus {
+    width: 105px;
+    height: 50px;
+    border-radius: 12px;
+    background: #CE2846CF;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hapus span {
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600px;
+    line-height: 26.63px;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 3px #00000040;
+}
+
+.hapus img {
+    width: 25px;
+    height: 25px;
+    margin-left: -5px;
+    padding-right: 5px;
+    margin-bottom: -5px;
+}
+
+.tambah {
+    cursor: pointer;
+    width: 158px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: #6986C0;
+    border-radius: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.tambah img {
+    width: 26.83px;
+    height: 25.67px;
+    margin-left: -5px;   
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
+.tambah span {
+    padding-left: 10px;
+    margin-top: -10px;
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 3px #00000040;    
+}
+
+td {
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.28px;
+    text-align: 'justified';
+    color: #FFFFFF;
+    text-shadow: 0px 4px 3px #00000040; 
+    padding: 10px 0px; 
+}
+
+.sidebar {
+    height: 150%;
+}
+
+.logout {
+    margin-top: 1025px;
+}
+
+.logout-span {
+    margin-top: 1025px;
+}
+
+.logout-after {
+    margin-top: 1025px;
+}
+
+.logout-span-after {
+    margin-top: 1025px;
+}
+
+.kembali {
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    border-radius: 12px;
+    background: #656B8D;
+    cursor: pointer;
+    top: 1145px;
+    left: 1345px;
+}
+
+.kembali span{
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.63px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 3px #00000040;
+}

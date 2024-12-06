@@ -1,0 +1,140 @@
+#judul1 {
+    margin-left: 45px;
+    opacity: 0.9px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#judul2 {
+    position: absolute;
+    opacity: 0.9px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 529px;
+}
+
+.container {
+    position: absolute;
+    width: 1055px;
+    height: 472px;
+    top: 124px;
+    left: 428px;
+    border: 1px solid #D9D9D9
+}
+
+hr {
+    margin-top: -5px;
+}
+
+label {
+    margin-left: 30px;
+    font-family: 'Inter';
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 35.1px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.label {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    resize: none;
+    width: 1016px;
+    height: 166px;
+    border-radius: 10px;
+    background: #727EA970;
+    color: white;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34.1px;
+}
+
+.batal {
+    position: absolute;
+    width: 81px;
+    height: 50px;
+    border-radius: 12px;
+    background: #656B8D;
+    cursor: pointer;
+    top: 392px;
+    left: 810px;
+}
+
+.selesai {
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    border-radius: 12px;
+    background: #6986C0;
+    margin-left: 20px;
+    cursor: pointer;
+    top: 392px;
+    left: 910px;
+}
+
+.selesai span{
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.63px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 3px #00000040;
+}
+
+.batal span{
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.63px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 3px #00000040;
+}
+
+.management {
+    background-image: url('../img/management-select.png');
+    margin-top: 13px;
+    margin-left: 35px;
+}
+
+.management-button {
+    width: 360px;
+    height: 100px;
+    margin-top: 391px;
+    left: 11px;
+    border-radius: 25px;
+    background: #7286CA;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+#management {
+    margin-top: 13px;
+    margin-left: -11px;
+    color: #E6E2E2;
+    text-shadow: 0px 4px 3px #00000040;
+}
+
+#button-select1 {
+    position: absolute;
+    width: 22.36px;
+    height: 70.76px;
+    border-radius: 25px;
+    background: #D9D9D9;
+    margin-top: 11.24px;
+    margin-left: -5px;
+}
